@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-image: url('number.jpeg');
+  /* Path to your background image */
+  background-repeat: no-repeat;
+  /* Prevent image from repeating */
+  background-size: cover;
+  /* Stretch the image to cover the entire background */
+}
+
+.container {
+  text-align: center;
+}
+
+img {
+  width: 200px;
+  /* Adjust the width as needed */
+  height: auto;
+  /* Maintain aspect ratio */
+  border: 16px double black;
+  /* Double border, adjust width and color as needed */
+  border-radius: 50%;
+  /* Make the image oval */
+}
+
+input {
+  padding: 5px;
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+button {
+  font-size: 18px;
+}
+
+p {
+  font-size: 36px;
+  font-weight: bold;
+  color: yellow;
+  background-color: black;
+  /* Set the background color of h1 to black */
+}
+
+h1 {
+  color: white;
+  /* Set the color of h1 to white */
+  background-color: black;
+  /* Set the background color of h1 to black */
+  font-size: 48pt;
+  /* Adjust the font size in points as needed */
+}
